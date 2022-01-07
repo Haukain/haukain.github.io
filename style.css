@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-size: 18pt;
+
+    background: url(assets/background.webp) no-repeat center center fixed, linear-gradient(to right top, #023440, #024656, #03596d, #036d84, #03819d, #1b90ab, #2b9fba, #39aec8, #50bace, #65c7d5, #79d3dc, #8cdfe3);
+    background-size: cover;
+    backdrop-filter: blur(10px);
+
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 400;
+    margin-top: 0.5em;
+    margin-bottom: 0em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+i {
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+a {
+    color: white;
+}
+
+i:hover {
+    box-shadow: 0px 0px 40px 20px rgba(255, 255, 255, 0.2), inset 0px 0px 100px 10px rgba(255, 255, 255, 0.2);
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
